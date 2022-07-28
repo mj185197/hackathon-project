@@ -26,7 +26,7 @@ $rawBody=@{text= '<!channel> All Databases are *ONLINE* on Batch Server ' + $ser
 }s
 
 
-$uri = 'https://hooks.slack.com/services/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'
+$uri = 'message uri'
 $contentType = 'application/json'
 $jsonBody = (convertto-json $rawBody)
 
